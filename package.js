@@ -11,7 +11,8 @@ Package.onUse(function (api) {
   // Core dependencies.
   api.use([
     'coffeescript',
-    'ddp'
+    'ddp',
+    'underscore'
   ], 'server');
 
   api.addFiles([
