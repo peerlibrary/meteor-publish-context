@@ -11,8 +11,12 @@ Package.onUse(function (api) {
   // Core dependencies.
   api.use([
     'coffeescript',
-    'ddp',
-    'underscore'
+    'ddp'
+  ], 'server');
+
+  // 3rd party dependencies.
+  api.use([
+    'peerlibrary:extend-publish@0.3.0'
   ], 'server');
 
   api.addFiles([
