@@ -8,6 +8,10 @@ from anywhere in the server-side code, if that server-side code was called from 
 It is similar to existing undocumented `DDP._CurrentInvocation` which does the same for method calls,
 giving you access to the current context of a method call (`this` inside a method's body).
 
+**Not needed with Meteor >= 1.5.1.** There is `DDP._CurrentPublicationInvocation` now available,
+and `DDP._CurrentInvocation` has been renamed to `DDP._CurrentMethodInvocation`. This package
+provides the same functionality for previous Meteor versions.
+
 Server side only.
 
 Installation
