@@ -1,7 +1,7 @@
 Package.describe({
   name: 'peerlibrary:publish-context',
   summary: "Provide DDP._CurrentPublish with access to current publish context",
-  version: '0.4.0',
+  version: '0.5.0',
   git: 'https://github.com/peerlibrary/meteor-publish-context.git'
 });
 
